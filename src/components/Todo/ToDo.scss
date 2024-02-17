@@ -1,0 +1,23 @@
+.todoList {
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+.card-body {
+  .addBtn {
+    background-color: rgb(31, 31, 119);
+    border: 2px solid rgb(187, 133, 133);
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+  }
+}
